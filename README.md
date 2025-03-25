@@ -14,4 +14,16 @@ A Java console application for managing seat reservations in a movie theater wit
   - Current vs. potential income
 - **Input Validation**: Handles edge cases for seat selection
 
-## 🖥️ Usage Example
+
+## 🛠 Technical Implementation
+```java
+public class Cinema {
+    private String[][] sitsTab;  // Seat matrix
+    private int income;          // Total potential income
+    private int inc;             // Current earnings
+    
+    // Core methods
+    void buyTicket() { /* Dynamic pricing logic */ }
+    void showTheSeats() { /* ASCII seat map */ }
+    void statistics() { /* Sales analytics */ }
+}
